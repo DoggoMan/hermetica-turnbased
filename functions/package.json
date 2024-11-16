@@ -1,5 +1,5 @@
 {
-  "name": "functions",
+  "name": "hermetica-turnbased",
   "scripts": {
     "lint": "tslint --project tsconfig.json",
     "build": "tsc",
@@ -10,7 +10,7 @@
     "logs": "firebase functions:log"
   },
   "engines": {
-    "node": "8"
+    "node": "20"
   },
   "main": "lib/index.js",
   "dependencies": {
